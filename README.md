@@ -28,3 +28,11 @@ python3 main.py \
   --beta_2_sche_name="constant" \
   --batch_sche_name="exp"
 ```
+For experiment4heavy.py:
+
+```bash
+python3 -m pip install numpy matplotlib
+python3 experiment4heavy.py          # Generate convergence plots
+python3 experiment4heavy.py heatmap  # Generate the heatmap
+python3 experiment4heavy.py all      # Run both experiments
+```
